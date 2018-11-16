@@ -14,6 +14,8 @@
 		E192905B219EC0AB00EB2AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1929059219EC0AB00EB2AE9 /* LaunchScreen.storyboard */; };
 		E1929063219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929062219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift */; };
 		E1929065219EC74000EB2AE9 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929064219EC74000EB2AE9 /* Plane.swift */; };
+		E1929067219ED71600EB2AE9 /* PlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1929066219ED71600EB2AE9 /* PlayView.xib */; };
+		E1929069219ED77B00EB2AE9 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929068219ED77B00EB2AE9 /* PlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		E192905C219EC0AB00EB2AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1929062219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
 		E1929064219EC74000EB2AE9 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		E1929066219ED71600EB2AE9 /* PlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayView.xib; sourceTree = "<group>"; };
+		E1929068219ED77B00EB2AE9 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				E1929059219EC0AB00EB2AE9 /* LaunchScreen.storyboard */,
 				E192905C219EC0AB00EB2AE9 /* Info.plist */,
 				E1929064219EC74000EB2AE9 /* Plane.swift */,
+				E1929066219ED71600EB2AE9 /* PlayView.xib */,
+				E1929068219ED77B00EB2AE9 /* PlayView.swift */,
 			);
 			path = SMPAugmented;
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				E192905B219EC0AB00EB2AE9 /* LaunchScreen.storyboard in Resources */,
 				E1929058219EC0AB00EB2AE9 /* Assets.xcassets in Resources */,
+				E1929067219ED71600EB2AE9 /* PlayView.xib in Resources */,
 				E1929056219EC0A900EB2AE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 				E1929063219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift in Sources */,
 				E1929053219EC0A900EB2AE9 /* ViewController.swift in Sources */,
 				E1929065219EC74000EB2AE9 /* Plane.swift in Sources */,
+				E1929069219ED77B00EB2AE9 /* PlayView.swift in Sources */,
 				E1929051219EC0A900EB2AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

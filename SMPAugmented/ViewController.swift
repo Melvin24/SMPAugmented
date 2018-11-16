@@ -13,6 +13,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var sceneView: ARSCNView!
     
+    lazy var playView: PlayView? = {
+        let nib = Bundle.main.loadNibNamed("PlayView", owner: self, options: nil)
+        let view = nib?.first as? PlayView
+        return view
+    }()
+    
     // A dictionary of all the current planes being rendered in the scene
     var planes: [UUID : Plane] = [:]
     lazy var tapGestureRec = UITapGestureRecognizer(target: self, action: #selector(tapped(recognizer:)))
@@ -76,40 +82,17 @@ class ViewController: UIViewController {
         let closestHitResult = hitResult[0]
         
         let node = nodeAt(hitResult: closestHitResult)
-        
-        //        guard let scene = SCNScene(named: "art.scnassets/ship.scn"),
-        //              let shipNode = scene.rootNode.childNode(withName: "ship", recursively: true) else {
-        //            return
-        //        }
-        //
-        //        shipNode.scale = SCNVector3(x: 0.25, y: 0.25, z: 0.25)
-        //
-        //        shipNode.position = SCNVector3Make(
-        //            closestHitResult.worldTransform.columns.3.x,
-        //            closestHitResult.worldTransform.columns.3.y + 0.3,
-        //            closestHitResult.worldTransform.columns.3.z
-        //        )
-        
+
         sceneView.scene.rootNode.addChildNode(node)
-        //        sceneView.scene.rootNode.addChildNode(sceneNode)
-        
-        //        boxeqs.append(node)
         
     }
     
     func nodeAt(hitResult: ARHitTestResult) -> SCNNode {
         
-        let aBox = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0)
+        let aBox = SCNBox(width: 0.533, height: 0.01, length: 0.3, chamferRadius: 0)
+        aBox.materials = [playViewMaterial()]
         
         let node = SCNNode(geometry: aBox)
-        
-        // The physicsBody tells SceneKit this geometry should be
-        // manipulated by the physics engine
-        node.physicsBody = SCNPhysicsBody(type: .dynamic, shape: nil)
-        
-        node.physicsBody?.mass = 2.0
-        
-        node.physicsBody?.categoryBitMask = Int(SCNPhysicsCollisionCategory.default.rawValue)
         
         // We insert the geometry slightly above the point the user tapped
         // so that it drops onto the plane using the physics engine
@@ -120,6 +103,12 @@ class ViewController: UIViewController {
         )
         
         return node
+    }
+    
+    func playViewMaterial() -> SCNMaterial {
+        let material = SCNMaterial()
+        material.diffuse.contents = self.playView
+        return material
     }
 }
 
