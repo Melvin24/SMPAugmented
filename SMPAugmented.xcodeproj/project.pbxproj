@@ -7,138 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1929051219EC0A900EB2AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929050219EC0A900EB2AE9 /* AppDelegate.swift */; };
-		E1929053219EC0A900EB2AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929052219EC0A900EB2AE9 /* ViewController.swift */; };
-		E1929056219EC0A900EB2AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1929054219EC0A900EB2AE9 /* Main.storyboard */; };
-		E1929058219EC0AB00EB2AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1929057219EC0AB00EB2AE9 /* Assets.xcassets */; };
-		E192905B219EC0AB00EB2AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1929059219EC0AB00EB2AE9 /* LaunchScreen.storyboard */; };
-		E1929063219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929062219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift */; };
-		E1929065219EC74000EB2AE9 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929064219EC74000EB2AE9 /* Plane.swift */; };
-		E1929067219ED71600EB2AE9 /* PlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1929066219ED71600EB2AE9 /* PlayView.xib */; };
-		E1929069219ED77B00EB2AE9 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1929068219ED77B00EB2AE9 /* PlayView.swift */; };
+		86A918F6E8BFBC12A267DA4B /* Pods_SMPAugmented.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B064B6E5D0AEAED6F6CAFD /* Pods_SMPAugmented.framework */; };
+		E192915D219F064E00EB2AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192915C219F064E00EB2AE9 /* AppDelegate.swift */; };
+		E192915F219F064E00EB2AE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192915E219F064E00EB2AE9 /* ViewController.swift */; };
+		E1929162219F064E00EB2AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1929160219F064E00EB2AE9 /* Main.storyboard */; };
+		E1929164219F064F00EB2AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1929163219F064F00EB2AE9 /* Assets.xcassets */; };
+		E1929167219F064F00EB2AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1929165219F064F00EB2AE9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E192906F219EE58800EB2AE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E192906A219EE58800EB2AE9 /* MediaPlayback.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6576A927218B521E00BEEC9C;
-			remoteInfo = MediaPlayback;
-		};
-		E1929071219EE58800EB2AE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E192906A219EE58800EB2AE9 /* MediaPlayback.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6576A930218B521F00BEEC9C;
-			remoteInfo = MediaPlaybackTests;
-		};
-		E1929078219EE59100EB2AE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1929073219EE59000EB2AE9 /* PlayerView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7431D6A2219088A300681A06;
-			remoteInfo = PlayerView;
-		};
-		E192907A219EE59100EB2AE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1929073219EE59000EB2AE9 /* PlayerView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7431D6AB219088A300681A06;
-			remoteInfo = PlayerViewTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		E192904D219EC0A900EB2AE9 /* SMPAugmented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMPAugmented.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1929050219EC0A900EB2AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1929052219EC0A900EB2AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E1929055219EC0A900EB2AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1929057219EC0AB00EB2AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E192905A219EC0AB00EB2AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E192905C219EC0AB00EB2AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1929062219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
-		E1929064219EC74000EB2AE9 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
-		E1929066219ED71600EB2AE9 /* PlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayView.xib; sourceTree = "<group>"; };
-		E1929068219ED77B00EB2AE9 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
-		E192906A219EE58800EB2AE9 /* MediaPlayback.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MediaPlayback.xcodeproj; path = VideoPlayback/MediaPlayback/MediaPlayback.xcodeproj; sourceTree = "<group>"; };
-		E1929073219EE59000EB2AE9 /* PlayerView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PlayerView.xcodeproj; path = VideoPlayback/PlayerView/PlayerView.xcodeproj; sourceTree = "<group>"; };
+		360B1364822380B3C3898909 /* Pods-SMPAugmented.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMPAugmented.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMPAugmented/Pods-SMPAugmented.debug.xcconfig"; sourceTree = "<group>"; };
+		DFCFC743C467BD409C3753CB /* Pods-SMPAugmented.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMPAugmented.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMPAugmented/Pods-SMPAugmented.release.xcconfig"; sourceTree = "<group>"; };
+		E1929159219F064E00EB2AE9 /* SMPAugmented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMPAugmented.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E192915C219F064E00EB2AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E192915E219F064E00EB2AE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1929161219F064E00EB2AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1929163219F064F00EB2AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1929166219F064F00EB2AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1929168219F064F00EB2AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B064B6E5D0AEAED6F6CAFD /* Pods_SMPAugmented.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMPAugmented.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E192904A219EC0A900EB2AE9 /* Frameworks */ = {
+		E1929156219F064E00EB2AE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A918F6E8BFBC12A267DA4B /* Pods_SMPAugmented.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E1929044219EC0A900EB2AE9 = {
+		3C95551BE2B79DA6A09C1BCF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1929073219EE59000EB2AE9 /* PlayerView.xcodeproj */,
-				E192906A219EE58800EB2AE9 /* MediaPlayback.xcodeproj */,
-				E192904F219EC0A900EB2AE9 /* SMPAugmented */,
-				E192904E219EC0A900EB2AE9 /* Products */,
+				360B1364822380B3C3898909 /* Pods-SMPAugmented.debug.xcconfig */,
+				DFCFC743C467BD409C3753CB /* Pods-SMPAugmented.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1929150219F064E00EB2AE9 = {
+			isa = PBXGroup;
+			children = (
+				E192915B219F064E00EB2AE9 /* SMPAugmented */,
+				E192915A219F064E00EB2AE9 /* Products */,
+				3C95551BE2B79DA6A09C1BCF /* Pods */,
+				EE6E5FAB36D2905A600465B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E192904E219EC0A900EB2AE9 /* Products */ = {
+		E192915A219F064E00EB2AE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E192904D219EC0A900EB2AE9 /* SMPAugmented.app */,
+				E1929159219F064E00EB2AE9 /* SMPAugmented.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E192904F219EC0A900EB2AE9 /* SMPAugmented */ = {
+		E192915B219F064E00EB2AE9 /* SMPAugmented */ = {
 			isa = PBXGroup;
 			children = (
-				E1929050219EC0A900EB2AE9 /* AppDelegate.swift */,
-				E1929052219EC0A900EB2AE9 /* ViewController.swift */,
-				E1929062219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift */,
-				E1929054219EC0A900EB2AE9 /* Main.storyboard */,
-				E1929057219EC0AB00EB2AE9 /* Assets.xcassets */,
-				E1929059219EC0AB00EB2AE9 /* LaunchScreen.storyboard */,
-				E192905C219EC0AB00EB2AE9 /* Info.plist */,
-				E1929064219EC74000EB2AE9 /* Plane.swift */,
-				E1929066219ED71600EB2AE9 /* PlayView.xib */,
-				E1929068219ED77B00EB2AE9 /* PlayView.swift */,
+				E192915C219F064E00EB2AE9 /* AppDelegate.swift */,
+				E192915E219F064E00EB2AE9 /* ViewController.swift */,
+				E1929160219F064E00EB2AE9 /* Main.storyboard */,
+				E1929163219F064F00EB2AE9 /* Assets.xcassets */,
+				E1929165219F064F00EB2AE9 /* LaunchScreen.storyboard */,
+				E1929168219F064F00EB2AE9 /* Info.plist */,
 			);
 			path = SMPAugmented;
 			sourceTree = "<group>";
 		};
-		E192906B219EE58800EB2AE9 /* Products */ = {
+		EE6E5FAB36D2905A600465B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E1929070219EE58800EB2AE9 /* MediaPlayback.framework */,
-				E1929072219EE58800EB2AE9 /* MediaPlaybackTests.xctest */,
+				E3B064B6E5D0AEAED6F6CAFD /* Pods_SMPAugmented.framework */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E1929074219EE59000EB2AE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E1929079219EE59100EB2AE9 /* PlayerView.framework */,
-				E192907B219EE59100EB2AE9 /* PlayerViewTests.xctest */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E192904C219EC0A900EB2AE9 /* SMPAugmented */ = {
+		E1929158219F064E00EB2AE9 /* SMPAugmented */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E192905F219EC0AB00EB2AE9 /* Build configuration list for PBXNativeTarget "SMPAugmented" */;
+			buildConfigurationList = E192916B219F064F00EB2AE9 /* Build configuration list for PBXNativeTarget "SMPAugmented" */;
 			buildPhases = (
-				E1929049219EC0A900EB2AE9 /* Sources */,
-				E192904A219EC0A900EB2AE9 /* Frameworks */,
-				E192904B219EC0A900EB2AE9 /* Resources */,
+				DC6C2228BFDCE7DD589FEC13 /* [CP] Check Pods Manifest.lock */,
+				E1929155219F064E00EB2AE9 /* Sources */,
+				E1929156219F064E00EB2AE9 /* Frameworks */,
+				E1929157219F064E00EB2AE9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,25 +106,25 @@
 			);
 			name = SMPAugmented;
 			productName = SMPAugmented;
-			productReference = E192904D219EC0A900EB2AE9 /* SMPAugmented.app */;
+			productReference = E1929159219F064E00EB2AE9 /* SMPAugmented.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E1929045219EC0A900EB2AE9 /* Project object */ = {
+		E1929151219F064E00EB2AE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = melvin;
 				TargetAttributes = {
-					E192904C219EC0A900EB2AE9 = {
+					E1929158219F064E00EB2AE9 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = E1929048219EC0A900EB2AE9 /* Build configuration list for PBXProject "SMPAugmented" */;
+			buildConfigurationList = E1929154219F064E00EB2AE9 /* Build configuration list for PBXProject "SMPAugmented" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,99 +132,75 @@
 				en,
 				Base,
 			);
-			mainGroup = E1929044219EC0A900EB2AE9;
-			productRefGroup = E192904E219EC0A900EB2AE9 /* Products */;
+			mainGroup = E1929150219F064E00EB2AE9;
+			productRefGroup = E192915A219F064E00EB2AE9 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = E192906B219EE58800EB2AE9 /* Products */;
-					ProjectRef = E192906A219EE58800EB2AE9 /* MediaPlayback.xcodeproj */;
-				},
-				{
-					ProductGroup = E1929074219EE59000EB2AE9 /* Products */;
-					ProjectRef = E1929073219EE59000EB2AE9 /* PlayerView.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				E192904C219EC0A900EB2AE9 /* SMPAugmented */,
+				E1929158219F064E00EB2AE9 /* SMPAugmented */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		E1929070219EE58800EB2AE9 /* MediaPlayback.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = MediaPlayback.framework;
-			remoteRef = E192906F219EE58800EB2AE9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E1929072219EE58800EB2AE9 /* MediaPlaybackTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = MediaPlaybackTests.xctest;
-			remoteRef = E1929071219EE58800EB2AE9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E1929079219EE59100EB2AE9 /* PlayerView.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = PlayerView.framework;
-			remoteRef = E1929078219EE59100EB2AE9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		E192907B219EE59100EB2AE9 /* PlayerViewTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = PlayerViewTests.xctest;
-			remoteRef = E192907A219EE59100EB2AE9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		E192904B219EC0A900EB2AE9 /* Resources */ = {
+		E1929157219F064E00EB2AE9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E192905B219EC0AB00EB2AE9 /* LaunchScreen.storyboard in Resources */,
-				E1929058219EC0AB00EB2AE9 /* Assets.xcassets in Resources */,
-				E1929067219ED71600EB2AE9 /* PlayView.xib in Resources */,
-				E1929056219EC0A900EB2AE9 /* Main.storyboard in Resources */,
+				E1929167219F064F00EB2AE9 /* LaunchScreen.storyboard in Resources */,
+				E1929164219F064F00EB2AE9 /* Assets.xcassets in Resources */,
+				E1929162219F064E00EB2AE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DC6C2228BFDCE7DD589FEC13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMPAugmented-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E1929049219EC0A900EB2AE9 /* Sources */ = {
+		E1929155219F064E00EB2AE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1929063219EC2C300EB2AE9 /* ViewController+ARSCNViewDelegate.swift in Sources */,
-				E1929053219EC0A900EB2AE9 /* ViewController.swift in Sources */,
-				E1929065219EC74000EB2AE9 /* Plane.swift in Sources */,
-				E1929069219ED77B00EB2AE9 /* PlayView.swift in Sources */,
-				E1929051219EC0A900EB2AE9 /* AppDelegate.swift in Sources */,
+				E192915F219F064E00EB2AE9 /* ViewController.swift in Sources */,
+				E192915D219F064E00EB2AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E1929054219EC0A900EB2AE9 /* Main.storyboard */ = {
+		E1929160219F064E00EB2AE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E1929055219EC0A900EB2AE9 /* Base */,
+				E1929161219F064E00EB2AE9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E1929059219EC0AB00EB2AE9 /* LaunchScreen.storyboard */ = {
+		E1929165219F064F00EB2AE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E192905A219EC0AB00EB2AE9 /* Base */,
+				E1929166219F064F00EB2AE9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -272,7 +208,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E192905D219EC0AB00EB2AE9 /* Debug */ = {
+		E1929169219F064F00EB2AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +269,7 @@
 			};
 			name = Debug;
 		};
-		E192905E219EC0AB00EB2AE9 /* Release */ = {
+		E192916A219F064F00EB2AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,8 +324,9 @@
 			};
 			name = Release;
 		};
-		E1929060219EC0AB00EB2AE9 /* Debug */ = {
+		E192916C219F064F00EB2AE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360B1364822380B3C3898909 /* Pods-SMPAugmented.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -406,8 +343,9 @@
 			};
 			name = Debug;
 		};
-		E1929061219EC0AB00EB2AE9 /* Release */ = {
+		E192916D219F064F00EB2AE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFCFC743C467BD409C3753CB /* Pods-SMPAugmented.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -427,25 +365,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1929048219EC0A900EB2AE9 /* Build configuration list for PBXProject "SMPAugmented" */ = {
+		E1929154219F064E00EB2AE9 /* Build configuration list for PBXProject "SMPAugmented" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E192905D219EC0AB00EB2AE9 /* Debug */,
-				E192905E219EC0AB00EB2AE9 /* Release */,
+				E1929169219F064F00EB2AE9 /* Debug */,
+				E192916A219F064F00EB2AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E192905F219EC0AB00EB2AE9 /* Build configuration list for PBXNativeTarget "SMPAugmented" */ = {
+		E192916B219F064F00EB2AE9 /* Build configuration list for PBXNativeTarget "SMPAugmented" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1929060219EC0AB00EB2AE9 /* Debug */,
-				E1929061219EC0AB00EB2AE9 /* Release */,
+				E192916C219F064F00EB2AE9 /* Debug */,
+				E192916D219F064F00EB2AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E1929045219EC0A900EB2AE9 /* Project object */;
+	rootObject = E1929151219F064E00EB2AE9 /* Project object */;
 }

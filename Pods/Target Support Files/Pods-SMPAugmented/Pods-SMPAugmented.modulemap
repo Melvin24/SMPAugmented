@@ -1,0 +1,6 @@
+framework module Pods_SMPAugmented {
+  umbrella header "Pods-SMPAugmented-umbrella.h"
+
+  export *
+  module * { export * }
+}
