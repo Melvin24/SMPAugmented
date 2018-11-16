@@ -89,7 +89,7 @@ class ViewController: UIViewController {
     
     func nodeAt(hitResult: ARHitTestResult) -> SCNNode {
         
-        let aBox = SCNBox(width: 0.533, height: 0.01, length: 0.3, chamferRadius: 0)
+        let aBox = SCNBox(width: 0.533, height: 0.001, length: 0.3, chamferRadius: 0)
         aBox.materials = [playViewMaterial()]
         
         let node = SCNNode(geometry: aBox)

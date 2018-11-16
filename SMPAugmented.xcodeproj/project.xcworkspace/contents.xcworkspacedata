@@ -1,6 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../VideoPlayback"
+      name = "VideoPlayback">
+      <Group
+         location = "group:PlayerView"
+         name = "PlayerView">
+         <Group
+            location = "group:PlayerView"
+            name = "PlayerView">
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:PlayerViewViewController.xib">
+               </FileRef>
+               <FileRef
+                  location = "group:PlayerViewViewController.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Protocols"
+               name = "Protocols">
+               <FileRef
+                  location = "group:MediaSurfaceProvider.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Factory"
+               name = "Factory">
+               <FileRef
+                  location = "group:PlayerViewFactory.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:PlayerViewTests"
+            name = "PlayerViewTests">
+            <FileRef
+               location = "group:PlayerViewViewControllerTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:PlayerViewFactoryTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:PlayerView.xcodeproj">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:MediaPlayback"
+         name = "MediaPlayback">
+         <Group
+            location = "group:MediaPlaybackTests"
+            name = "MediaPlaybackTests">
+            <FileRef
+               location = "group:MediaViewTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:MediaPlayback.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:MediaPlayback"
+            name = "MediaPlayback">
+            <FileRef
+               location = "group:MediaPlaybackController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MediaView.swift">
+            </FileRef>
+            <Group
+               location = "group:SMP"
+               name = "SMP">
+               <Group
+                  location = "group:Plugins"
+                  name = "Plugins">
+                  <FileRef
+                     location = "group:EmptyPlugin.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Headless Player"
+                     name = "Headless Player">
+                     <FileRef
+                        location = "group:HeadlessSMPPluginFactory.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:SMPMediaPlaybackController.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:MediaPlaybackFactory.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
    <FileRef
       location = "self:SMPAugmented.xcodeproj">
    </FileRef>
